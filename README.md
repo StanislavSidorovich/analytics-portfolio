@@ -2,9 +2,9 @@
 
 **Data Analyst | BI Analyst | Project Controls Specialist**
 
-📧 Email: s.sidorovich@gmail.com
+Email: s.sidorovich@gmail.com
 
-💼 LinkedIn: https://www.linkedin.com/in/stanislavsidorovich/
+LinkedIn: https://www.linkedin.com/in/stanislavsidorovich/
 
 Analytics professional with 12+ years of experience in reporting, project controls and business performance analysis. Currently transitioning into Data Analytics and Business Intelligence with hands-on projects in SQL, Python and Power BI.
 
