@@ -91,3 +91,17 @@ from profit_tbl
 order by profit_tbl.total_profit desc
 -- Highest profic marging from Accessories
 ;
+
+select apcl."CategoryName" , apsl."SubcategoryName" , 
+round(sum(asd."OrderQuantity" * apl."ProductPrice")::numeric, 1) as revenue,
+rank () over (partition by apcl."CategoryName"  order by	sum(asd."OrderQuantity" * apl."ProductPrice") desc) as rank_in_category
+from adventureworks_product_categories_lookup apcl 
+join adventureworks_product_subcategories_lookup apsl 
+on apcl."ProductCategoryKey" = apsl."ProductCategoryKey"
+join adventureworks_product_lookup apl 
+on apl."ProductSubcategoryKey"  = apsl."ProductSubcategoryKey" 
+join adventureworks_sales_data asd 
+on asd."ProductKey" = apl."ProductKey" 
+group by 1,2
+order by 1, rank_in_category;
+
