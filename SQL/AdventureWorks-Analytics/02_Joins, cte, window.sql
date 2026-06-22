@@ -92,6 +92,7 @@ order by profit_tbl.total_profit desc
 -- Highest profic marging from Accessories
 ;
 
+--Rank within Category
 select apcl."CategoryName" , apsl."SubcategoryName" , 
 round(sum(asd."OrderQuantity" * apl."ProductPrice")::numeric, 1) as revenue,
 rank () over (partition by apcl."CategoryName"  order by	sum(asd."OrderQuantity" * apl."ProductPrice") desc) as rank_in_category
