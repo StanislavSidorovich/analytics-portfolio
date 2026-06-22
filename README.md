@@ -1,6 +1,6 @@
 # Stanislav Sidorovich
 
-**Data Analyst | BI Analyst | Project Controls Specialist**
+** BI / Business Analyst | Project Controls Specialist**
 
 Email: s.sidorovich@gmail.com
 
