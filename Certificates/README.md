@@ -1,8 +1,8 @@
-Professional Certificates
+# Professional Certificates
 
 This folder contains certificates related to Data Analytics, Business Analytics, SQL, Python and Business Intelligence.
 
-Certificates
+## Certificates
 Google Data Analytics Professional Certificate (Coursera)
 Business Analytics with Power BI (Udacity)
 Complete SQL Bootcamp (Udemy)
