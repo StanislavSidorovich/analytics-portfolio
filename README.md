@@ -1,22 +1,57 @@
 # Stanislav Sidorovich
 
-Data Analyst | BI Analyst | Project Controls Specialist
+**Data Analyst | BI Analyst | Project Controls Specialist**
+
+Analytics professional with 12+ years of experience in reporting, project controls and business performance analysis. Currently transitioning into Data Analytics and Business Intelligence with hands-on projects in SQL, Python and Power BI.
 
 ## Skills
 
-- SQL
+- SQL (PostgreSQL)
+- Python (Pandas, Matplotlib)
 - Power BI
-- Excel
-- Python
-- Pandas
+- Excel (Advanced)
+- DAX
+- Power Query
 - Primavera P6
-- Cost Control
 - KPI Reporting
+- Cost Control
+- Business Analysis
 
-## Areas of Interest
+## Portfolio Projects
 
-- Data Analytics
-- Business Intelligence
-- Project Controls
-- PMO Reporting
-- Construction Analytics
+### AdventureWorks Analytics (SQL)
+
+- Complex joins
+- CTEs
+- Window functions
+- Revenue and profit analysis
+- Business insights generation
+
+### AdventureWorks Analytics (Python)
+
+- Data cleaning and preparation
+- Data merging with Pandas
+- Revenue, profit and margin calculations
+- Trend analysis
+- Data visualization
+
+### Maven Market Dashboard (Power BI)
+
+- Interactive dashboard
+- KPI tracking
+- DAX measures
+- Business performance monitoring
+
+## Certifications
+
+- Google Data Analytics Professional Certificate (Coursera)
+- Business Analytics with Power BI (Udacity)
+- Complete SQL Bootcamp (Udemy)
+
+## Career Interests
+
+- Data Analyst
+- BI Analyst
+- Commercial Analyst
+- Supply Chain Analyst
+- Business Analyst (Data-focused)
