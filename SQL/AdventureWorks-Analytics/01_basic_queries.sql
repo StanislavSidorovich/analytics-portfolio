@@ -27,7 +27,7 @@ from adventureworks_sales_data asd
 join adventureworks_territory_lookup atl 
 on asd."TerritoryKey"  = atl."SalesTerritoryKey" 
 group by atl."Continent" 
-order by items_sold  desc
+order by units_sold  desc
 --North America generated most sales in units;
 
 --Top customers by units bought
