@@ -27,7 +27,7 @@ from revenue_tbl r)
 select "CategoryName" , units_sold, revenue, round(revenue*1.0/nullif(total_sales,0),2) as pct_of_total 
 from totalsales_tbl 
 order by revenue desc
--- Accesorries have higher unit_sales, but bikes have higher reveneue (95% of total revenue)
+-- Accessories have higher unit sales, but Bikes have higher revenue (95% of total revenue)
 ;
 
 -- Country share of total sales
@@ -62,7 +62,7 @@ join adventureworks_product_categories_lookup apcl on
 apcl."ProductCategoryKey" = apsl."ProductCategoryKey" 
 group by 1
 order by total_profit desc
--- Bikes brough majority of Profits
+-- Bikes brought the majority of profit
 ;
 
 --Profit Margin by Category
@@ -89,7 +89,7 @@ select
 	round((revenue - total_cost)*100.0 / revenue,2) as profit_margin_pct
 from profit_tbl 
 order by profit_tbl.total_profit desc
--- Highest profic marging from Accessories
+-- Highest profit margin: Accessories
 ;
 
 --Rank within Category

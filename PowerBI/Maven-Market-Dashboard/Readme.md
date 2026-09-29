@@ -15,6 +15,14 @@ and time periods using the Maven Market dataset.
 - Product brand performance — total transactions, profit, profit margin, and return rate (pivot table)
 - Country-level slicer for filtering all visuals
 
+## Key insights
+
+- In the latest month, transactions (18,325) and profit (71.7K) beat their targets by about 5.7% and 5.6%. Returns (569) came in about 1% above target — the one KPI to watch.
+- Profit margin is very stable across brands (about 58–64%, 59.9% overall), so differences in brand profit come from volume rather than pricing.
+- The return rate stays at about 1% for every brand. No single brand drives returns.
+- The USA accounts for the largest share of transactions, followed by Mexico, with Canada a small share.
+- Weekly revenue rose noticeably in 1998 compared with 1997.
+
 ## Key DAX measures
 
 ```dax
