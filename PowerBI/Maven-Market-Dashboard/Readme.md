@@ -53,3 +53,5 @@ Star schema with one fact table and supporting dimensions:
 
 Requires [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free, Windows only).
 Download the `.pbix` file and open locally.
+
+No Power BI? A static export of both report pages is available as [PDF](maven_market_dashboard.pdf).
